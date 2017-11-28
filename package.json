@@ -1,5 +1,5 @@
 {
-  "name": "phonebook-beginner",
+  "name": "simpleReactReduxStarter",
   "version": "1.0.0",
   "description": "Simple React Redux Starter",
   "main": "index.js",
@@ -32,6 +32,7 @@
     "react-dom": "^0.14.9",
     "react-redux": "4.3.0",
     "react-router": "^2.0.1",
-    "redux": "^3.0.4"
+    "redux": "^3.0.4",
+    "redux-promise": "^0.5.3"
   }
 }

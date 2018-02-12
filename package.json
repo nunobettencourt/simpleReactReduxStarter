@@ -1,9 +1,9 @@
 {
-  "name": "simpleReactReduxStarter",
+  "name": "CityStasher",
   "version": "1.0.0",
-  "description": "Simple React Redux Starter",
+  "description": "CityStasher",
   "main": "index.js",
-  "repository": "git@github.com/nunobettencourt/simpleReactReduxStarter",
+  "repository": "git@github.com/nunobettencourt/CityStasher",
   "scripts": {
     "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
     "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js --recursive ./test",
@@ -13,26 +13,28 @@
   "license": "ISC",
   "devDependencies": {
     "babel-core": "^6.2.1",
-    "babel-loader": "^6.2.0",
+    "babel-loader": "^7.1.2",
     "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.1.18",
-    "chai": "^3.5.0",
+    "chai": "^4.1.2",
     "chai-jquery": "^2.0.0",
-    "jquery": "^2.2.1",
-    "jsdom": "^8.1.0",
-    "mocha": "^2.4.5",
-    "react-addons-test-utils": "^0.14.7",
-    "webpack": "^1.12.9",
-    "webpack-dev-server": "^1.14.0"
+    "jquery": "^3.3.1",
+    "jsdom": "^11.6.2",
+    "mocha": "^5.0.0",
+    "react-addons-test-utils": "^15.6.2",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.11.1"
   },
   "dependencies": {
+    "axios": "^0.17.1",
     "babel-preset-stage-1": "^6.1.18",
-    "lodash": "^3.10.1",
-    "react": "^0.14.9",
-    "react-dom": "^0.14.9",
-    "react-redux": "4.3.0",
-    "react-router": "^2.0.1",
+    "lodash": "^4.17.5",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-redux": "5.0.6",
+    "react-router": "^4.2.0",
     "redux": "^3.0.4",
+    "redux-form": "^7.2.3",
     "redux-promise": "^0.5.3"
   }
 }

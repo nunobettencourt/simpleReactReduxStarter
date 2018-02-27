@@ -1,1 +1,1 @@
-export * from './actions_map';
+export * from './actions_default';
